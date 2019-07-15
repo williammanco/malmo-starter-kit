@@ -1,0 +1,41 @@
+{
+  "name": "plain",
+  "version": "1.0.0",
+  "description": "A @malmo starter-kit for build static site",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lorenzomigliorero/malmo"
+  },
+  "scripts": {
+    "dev": "malmo dev",
+    "build": "malmo build"
+  },
+  "keywords": [],
+  "author": "Lorenzo Migliorero <lorenzomigliorero@gmail.com>",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@babel/core": "^7.0.0",
+    "@babel/plugin-transform-modules-commonjs": "^7.4.4",
+    "handlebars": "^4.1.2",
+    "handlebars-loader": "^1.7.1"
+  },
+  "devDependencies": {
+    "@aquestsrl/eslint-config": "0.3.3",
+    "@malmo/eslint-config": "^1.0.0",
+    "babel-eslint": "^8.2.5",
+    "copy-webpack-plugin": "^5.0.3",
+    "eslint": "^5.3.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-import": "^2.18.0",
+    "eslint-plugin-jsx-a11y": "^6.2.3",
+    "eslint-plugin-react": "^7.14.2",
+    "html-webpack-reload-plugin": "^2.0.0",
+    "postcss-preset-env": "^6.6.0",
+    "require-uncached": "^2.0.0",
+    "undefined": "^0.1.0"
+  }
+}
